@@ -39,7 +39,15 @@ function updateCounts () {
     blue: 0,
     green: 0,
     invisible: 0
-  }
+}
+  let totBlue = document.getElementsByClassName('blue').length
+  totals.blue = totBlue
+  
+  let totGreen = document.getElementsByClassName('green').length
+  totals.green = totGreen
+
+  let totInvisible = document.getElementsByClassName('invisible').length
+  totals.invisible = totInvisible
   
   // WRITE CODE HERE TO COUNT BLUE, GREEN, AND INVISIBLE DOTS
 
